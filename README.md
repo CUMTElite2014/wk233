@@ -47,11 +47,3 @@
      
  # 查询结果
 ![](https://github.com/wk09143787/wk233/blob/master/2.jpg)
-# 伪代码
-1.根据名称查找人员编号UserID<br>
-2.根据人员编号UserID查找改人员所对应的角色集合RoleIDs<br>
-3.权限表 LEFT JOIN 按钮表 LEFT JOIN 页面表并查找<br>
-   角色类型为CF_Role   AND   角色编号在角色集合RoleIDs中<br>
-  OR<br>
-   角色类型为CF_User   AND   人员编号为UserID<br>
-  AND 权限属性为Permit   AND   权限为Sys_Button AND 菜单名字为订单的数据<br>
