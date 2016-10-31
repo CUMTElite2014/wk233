@@ -18,6 +18,7 @@
      cp.PrivilegeOperation = 'Permit' AND cp.PrivilegeAccess = 'Sys_Menu';<br>#
 # 查询结果     
      ![](https://github.com/wk09143787/wk233/blob/master/1.jpg)
+# 伪代码
      
 # 订单操作权限
   SELECT cp.PrivilegeMaster AS '角色类型',<br>
@@ -39,3 +40,5 @@
      cp.PrivilegeOperation = 'Permit' AND cp.PrivilegeAccess = 'Sys_Button' AND sm.MenuName = '订单';<br>
      
  # 查询结果
+![](https://github.com/wk09143787/wk233/blob/master/2.jpg)
+# 伪代码
